@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="home">
+<header>
+<!-- =========================start NavBar1=================== -->
+    <nav class="navbar">
+        <div class="containar-nav">
+
+            <button class="button-nav">انشاء حساب</button>
+            <button class="button-nav button-nav2">تسجيل الدخول</button>
+
+            <div class="search-box">
+                <div class="icon-search-NavBar1">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <input class="search-nav" type="search" placeholder="اكتب كلمة البحث هنا">
+            </div>
+
+            <div class="logo-text">
+                <span>الجار الله</span><br>
+                لقطع غيار السيارات
+            </div>
+
+            <div class="logo-nav">
+            <img src="photo/logonavbar.png" alt="logo">
+            </div>
+
+        </div> <!-- end containar-nav -->
+    </nav> <!-- end navbar -->
+    <!-- =========================end NavBar1=================== -->
+    <!-- =========================start NavBar2=================== -->
+    <nav class="navbar2">
+        <div class="containar-nav">
+
+        <div class="phone-navbar2">
+        <div class="icon-logo1">
+    <i class="icon-navbar2 fa-solid fa-phone-volume"></i>
+
+    </div>
+            <span>+9562548598</span>
+        </div><!-- phone-navbar2 -->
+    <ul class="list-navbar2">
+    <li>▾EN</li>
+    </ul><!-- end ul -->
+<ul class="list-navbar2-2">
+<li><a href="#" onclick="window.location.href='Contact.html'">تواصل معنا</a></li>
+<li><a href="#" onclick="window.location.href='Offers.html'">العروض</a></li>
+<li><a href="#" onclick="window.location.href='store.html'">المتجر</a></li>
+<li><a href="#" onclick="window.location.href='AboutUs.html'">من نحن</a></li>
+<li><a href="#">الرئيسية</a></li>
+</ul>
+    </div> <!-- end containar-nav -->
+    </nav> <!-- end navbar2 -->
+<!-- =========================end NavBar2=================== -->
+</header>
+<main>
+<!-- =========================start sction1=================== -->
+<div class="img-sction1">
+
+    <div class="content-img-sction1">
+        <p><span>احصل</span> على جميع قطع غيار سيارتك...</p>
+        <p class="p-img-sction1">وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبه</p>
+    </div>
+    <form class="search-bar-sction1" onsubmit="handleSearch(); return false;">
+    <input type="text" placeholder="...ادخل الكلمات" id="keywords" />
+    <select id="carType">
+        <option value="">اختر النوع</option>
+        <option>تويوتا</option>
+        <option>هيونداي</option>
+    </select>
+    <input type="text" placeholder="الموديل" id="model" />
+    <select id="year">
+        <option value="">سنة الصنع</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+    </select>
+    <button type="submit">ابحث</button>
+</form>
+</div><!-- end img-sction1 -->
+<!-- =========================end sction1=================== -->
+<section>
+<!-- =========================Start sction2=================== -->
+<div class="sction2">
+<div class="containar-sction2">
+    <div class="logo0">
+    <img class="logo0-sction2" src="Photo/0sction2.png" alt="logo0">
+    </div><!-- end logo0 -->
+    <p class="p-sction2">وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص</p>
+    <div class="icon-sction2">
+        <img class="logo-sction2" src="Photo/1sction2.png" alt="icon 1">
+        <img class="logo-sction2" src="Photo/2sction2.png" alt="icon 2">
+        <img class="logo-sction2" src="Photo/3sction2.png" alt="icon 3">
+        <img class="logo-sction2" src="Photo/4sction2.png" alt="icon 4">
+        <img class="logo-sction2" src="Photo/5sction2.png" alt="icon 5">
+        <img class="logo-sction2" src="Photo/6sction2.png" alt="icon 6">
+    </div><!-- end icon-sction2 -->
+</div><!-- end containar-sction2 -->
+</div><!-- end sction2 -->
+<!-- =========================end sction2=================== -->
+</section>
+<section>
+<!-- =========================Start sction3=================== -->
+<div class="sction3">
+<div class="containar-sction3">
+<div class="header-sction3">
+    <span style="color: orangered; font-size: 22px;">&larr;</span>
+    <span>المنتجات</span>
+</div><!-- end header-sction3 -->
+<div class="cat-sction3">
+<!-- -------------------------------------- -->
+    <div class="option-cat-sction3">
+        <img class="badge-sction3" src="Photo/new.png" alt="new">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option1-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+</div><!-- end option-cat-sction3-->
+
+<div class="option-cat-sction3">
+ <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div><!-- end option-cat-sction3-->
+    <div class="option-cat-sction3">
+        <img class="badge-sction3" src="Photo/new.png" alt="new">
+         <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div><!-- end button-option-->
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option1-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option1-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+    <div class="option-cat-sction3">
+        <div class="containar-option">
+        <div class="photo-option-cat-sction3">
+            <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+        </div>
+        <div class="head-content-sction3">
+<span>اسم المنتج يكتب هنا</span>
+<span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+    </div><!-- end head-content-sction3 -->
+<div class="hr-option"></div>
+<div class="content-option">
+<p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز  </p>
+<p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+</div><!-- end content-option-->
+</div><!-- end containar-option -->
+<div class="hr-option hr-option2"></div>
+<div class="button-option">
+<button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+</div><!-- end button-option-->
+    </div>
+</div><!-- end cat-sction3 -->
+</div><!-- end containar-sction3 -->
+</div><!-- end sction3 -->
+<!-- =========================end sction3=================== -->
+</section>
+<!-- =========================start sction4=================== -->
+<section>
+<div class="sction4">
+<div class="containar-sction4">
+<div class="header-sction4">
+<div class="one-sction4">
+<div class="overlay-sction4"></div><!-- end overlay -->
+<div class="contant-sction4">
+<h3 class="h3-sction4">... احصل علي جميع قطع غيار سيارتك</h3>
+<p style="font-size: small;margin-top: 10px;" class="p-sction4 ">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع </p>
+<button class="button-sction4">تسوق الأن</button>
+</div><!-- end contant-sction4 -->
+</div><!--end one-sction4 -->
+<div class="two-sction4 one-sction4"><div class="overlay-sction4"></div><!-- end overlay -->
+<div class="contant-sction4">
+<h3 class="h3-sction4">... احصل علي جميع قطع غيار سيارتك</h3>
+<p style="font-size: small;margin-top: 10px;" class="p-sction4 ">عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع </p>
+<button class="button-sction4">تسوق الأن</button>
+</div><!-- end contant-sction4 -->
+</div><!-- two-sction4 -->
+</div><!-- end header-sction4 -->
+</div><!-- end containar-sction4 -->
+</div><!-- end sction4 -->
+</section>
+<!-- =========================end sction4=================== -->
+<!-- =========================Start sction5=================== -->
+<section>
+<div class="sction5">
+    <div class="containar-sction5">
+
+        <div class="header-sction5">
+            <div class="nav-arrows">
+                <button class="arrow-btn arrow-prev" onclick="scrollCards(-1)">&#8249;</button>
+                <button class="arrow-btn arrow-next" onclick="scrollCards(1)">&#8250;</button>
+            </div>
+            <span class="sction5-title">العروض</span>
+        </div><!-- end header-sction5 -->
+
+        <div class="cards-wrapper" id="cardsWrapper">
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option1-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option1-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+            <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+
+             <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+             <div class="card-item">
+                <div class="containar-option">
+                    <div class="photo-option-cat-sction3">
+                        <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+                    </div>
+                    <div class="head-content-sction3">
+                        <span>اسم المنتج يكتب هنا</span>
+                        <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                    </div>
+                    <div class="hr-option"></div>
+                    <div class="content-option">
+                        <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز</p>
+                        <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505 ريال</p>
+                    </div>
+                </div>
+                <div class="hr-option hr-option2"></div>
+                <div class="button-option">
+                    <button>أضف إلى السلة</button>
+                </div>
+            </div><!-- end card-item -->
+    </div><!-- end containar-sction5 -->
+</div><!-- end sction5 -->
+</section>
+<!-- =========================End sction5=================== -->
+<!-- =========================Start sction6=================== -->
+<section>
+<div class="sction6">
+  <div class="containar-sction6">
+
+    <div class="sction6-content">
+      <h2><span>...</span> كن علي تواصل معنا ليصلك كل <strong>جديد</strong></h2>
+      <p>وعند موافقة العميل المبدئية على التصميم يتم إزالة هذا النص من التصميم...</p>
+      <a href="#" class="sction6-btn">تواصل الآن</a>
+    </div>
+
+    <div class="sction6-img">
+      <img src="Photo/sction6.png" alt="car">
+    </div>
+
+  </div><!-- containar-sction6 -->
+</div><!-- end sction6 -->
+</section>
+<!-- =========================End sction6=================== -->
+<!-- =========================Start sction7=================== -->
+<section>
+<div class="sction7">
+<div class="containar-sction7">
+<div class="header-sction7">
+    <div class="nav-arrows7">
+        <button class="arrow-btn7 arrow-prev7">&#8249;</button>
+        <button class="arrow-btn7 arrow-next7">&#8250;</button>
+    </div>
+    <span class="sction7-title">الأكثر طلبًا</span>
+</div>
+
+<div class="cardba-sction7">
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+    <div class="card-sction7 card-grid">
+<div class="card-sction7 card-grid">
+    
+  <!-- =========================Start Search=================== -->
+     <aside>
+    <div class="search-box7">
+        <span>...ابحث</span>
+        <input type="text" placeholder="ابحث عن منتج">
+    </div>
+
+    <!-- قائمة الأقسام -->
+    <div class="categories-box7">
+        <div class="category-item7">
+            <input type="checkbox" id="cat1">
+            <label for="cat1">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat2">
+            <label for="cat2">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat3">
+            <label for="cat3">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat4">
+            <label for="cat4">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat5">
+            <label for="cat5">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat6">
+            <label for="cat6">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat7">
+            <label for="cat7">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat8">
+            <label for="cat8">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat9">
+            <label for="cat9">اسم السكشن</label>
+        </div>
+        <div class="category-item7">
+            <input type="checkbox" id="cat10">
+            <label for="cat10">اسم السكشن</label>
+        </div>
+    </div>
+<hr class="hr-sction7">
+    <div class="price-box7">
+        <span style="color: orangered; font-weight: bold;">سعر الطلب</span>
+        <div class="price-range7">
+            <input type="range" min="0" max="2000" value="500" class="range-input7">
+            <div class="price-labels7">
+                <span>2000</span>
+                <span>500</span>
+                <span>0</span>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</aside>
+  <!-- =========================end Search=================== -->
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option2-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option3-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+
+    <div class="card-sction7">
+        <div class="option-cat-sction3">
+            <div class="containar-option">
+                <div class="photo-option-cat-sction3">
+                    <img style="width: 120px;height: 120px; margin-top:5px;" src="Photo/option4-sction3.png">
+                </div>
+                <div class="head-content-sction3">
+                    <span>اسم المنتج يكتب هنا</span>
+                    <span><i class="fa-solid fa-star" style="color: gold;"></i>&nbsp;5</span>
+                </div>
+                <div class="hr-option"></div>
+                <div class="content-option">
+                    <p style="direction: rtl; margin-top: 10px;font-size: 14px; color: gray;">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء <br>لصفحة ما سيلهي القارئ عن التركيز</p>
+                    <p style="direction: rtl; color: orangered; margin-top: 10px; font-size: 20px;">505ريال</p>
+                </div>
+            </div>
+            <div class="hr-option hr-option2"></div>
+            <div class="button-option">
+                <button style="width: 150px;height: 30px;margin: auto; background-color: white;border: none; cursor: pointer;font-weight: bold;color: rgb(2, 2, 99); font-size: 17px;">اضف الى السله</button>
+            </div>
+        </div>
+    </div><!-- end card-sction7 -->
+
+</div><!-- end cardba-sction7 -->
+</div><!-- end containar-sction7 -->
+</div><!-- end sction7 -->
+</section>
+<!-- =========================End sction7=================== -->
+</main>
+<!-- =========================START sction8=================== -->
+<footer>
+    <div class="sction8">
+        <div class="img-sction8">
+            <img src="Photo/End sction.png" alt="End sction img">
+            <img class="location-icon" src="Photo/location.png" alt="location">
+        </div>
+    </div>
+
+    <div class="containar-sction8">
+        <div class="end-sction8">
+
+            <ul class="footer-col">
+                <h2>معلومات</h2>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">الشروط والأحكام</a></li>
+                <li><a href="#">الشحن والتوصيل</a></li>
+                <li><a href="#">سياسيات الخصوصية</a></li>
+            </ul>
+
+            <ul class="footer-col">
+                <h2>خدمة العملاء</h2>
+                <li><a href="#">تواصل معنا</a></li>
+                <li><a href="#">إرجاع الطلب</a></li>
+                <li><a href="#">إلغاء الطلب</a></li>
+            </ul>
+
+            <ul class="footer-col">
+                <h2>إضافات</h2>
+                <li><a href="#">الشركات</a></li>
+                <li><a href="#">قسائم الهدايا</a></li>
+                <li><a href="#">العروض المميزه</a></li>
+            </ul>
+
+            <div class="footer-brand">
+                <div class="footer-brand-header">
+                    <span>الجار الله</span>
+                <img src="photo/logonavbar.png" alt="logo">
+
+                    
+                </div>
+                <p>وعند موافقه العميل المبدئيه على التصميم يتم ازالة
+                هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <p>
+            جميع الحقوق محفوظه لموقع
+            <strong>الجار الله لقطع غيار السيارات</strong>
+            سمارت فيجن للتصميم والبرمجة |
+        </p>
+    </div>
+</footer>
+<!-- =========================End sction8=================== -->
+</div><!--  end home -->
+<!-- ======================================================Start Login Modal========================================================== -->
+<div id="loginOverlay">
+  <div class="login-modal-box">
+    <div class="login-tabs">
+      <button id="tab-login" class="tab-btn active" type="button" onclick="switchTab('login')">تسجيل الدخول</button>
+      <button id="tab-register" class="tab-btn" type="button" onclick="switchTab('register')">إنشاء حساب</button>
+    </div>
+    <div id="panel-login" class="login-panel active">
+      <div class="login-grid-2">
+        <div class="login-field">
+          <label for="login-email">البريد الالكتروني</label>
+          <input id="login-email" type="email" placeholder="ahmed@gmail.com" class="login-input">
+        </div>
+        <div class="login-field">
+          <label for="login-password">رقم المرور</label>
+          <input id="login-password" type="password" placeholder="--------" class="login-input">
+          <button class="login-forgot" type="button" onclick="showLoginStep('forgot-email')">هل نسيت كلمة المرور ؟</button>
+        </div>
+      </div>
+     <button class="login-action" type="button" onclick="window.location.href='bage2.html'">
+  تسجيل
+</button>
+    </div>
+<!-- =======================================================================End Login Modal========================================================== -->
+    <!-- ===================================================================Start Register Panel====================================== -->
+    <div id="panel-register" class="login-panel">
+      <div class="login-grid-2">
+        <div class="login-field">
+          <label for="register-email">البريد الالكتروني</label>
+          <input id="register-email" type="email" placeholder="ahmed@gmail.com" class="login-input">
+        </div>
+        <div class="login-field">
+          <label for="register-user">اسم المستخدم</label>
+          <input id="register-user" type="text" placeholder="اسم المستخدم" class="login-input" style="text-align:right;direction:rtl;">
+        </div>
+      </div>
+      <div class="login-grid-2" style="margin-top:18px;">
+        <div class="login-field">
+          <label for="register-password">رقم المرور</label>
+          <input id="register-password" type="password" placeholder="--------" class="login-input">
+        </div>
+        <div class="login-field">
+          <label for="register-confirm">تأكيد رقم المرور</label>
+          <input id="register-confirm" type="password" placeholder="--------" class="login-input">
+        </div>
+      </div>
+      <button class="login-action LOGIN" type="button" onclick="window.location.href='bage2.html'">
+  إنشاء الحساب
+</button>
+    </div>
+    <div id="panel-forgot-email" class="login-panel">
+      <p class="login-title">ادخل بريدك الإلكتروني الذي قمت بالتسجيل به</p>
+      <div class="login-single">
+        <input type="email" placeholder="ahmed@gmail.com" class="login-input">
+      </div>
+      <button class="login-action" type="button" onclick="showLoginStep('verify-code')">
+        إرسال
+      </button>
+    </div>
+    <div id="panel-verify-code" class="login-panel">
+      <p class="login-title">ادخل رمز التحقق المرسل على بريدك الإلكتروني</p>
+      <div class="otp-row">
+        <input class="otp-input" type="text" maxlength="1" inputmode="numeric">
+        <input class="otp-input" type="text" maxlength="1" inputmode="numeric">
+        <input class="otp-input" type="text" maxlength="1" inputmode="numeric">
+        <input class="otp-input" type="text" maxlength="1" inputmode="numeric">
+      </div>
+      <button class="login-action" type="button" onclick="showLoginStep('reset-password')">
+        إرسال
+      </button>
+    </div>
+    <div id="panel-reset-password" class="login-panel">
+      <p class="login-title">انشاء كلمة مرور جديدة</p>
+      <div class="login-grid-2">
+        <div class="login-field">
+          <label for="new-password">رقم المرور</label>
+          <input id="new-password" type="password" placeholder="--------" class="login-input">
+        </div>
+        <div class="login-field">
+          <label for="confirm-new-password">تأكيد رقم المرور</label>
+          <input id="confirm-new-password" type="password" placeholder="--------" class="login-input">
+        </div>
+      </div>
+      <button class="login-action" type="button" onclick="switchTab('login')">
+        إرسال
+      </button>
+    </div>
+  </div>
+</div>
+    <!-- ===================================================================End Register Panel====================================== -->
+<button class="scroll-top-btn" type="button" aria-label="Scroll to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+<script src="JS/JJS.js"></script>
+</body>
+</html>
